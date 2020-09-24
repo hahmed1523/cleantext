@@ -7,10 +7,10 @@ A client provides a csv file that has characters that are not ascii. The file ca
 ## Solution
 
 I created a simple program that does the following:
-    -Import unidecode
-    -Asks for the path to the file
-    -Create new file name for the output with _cleaned.csv at the end
-    -Opens the file and reads each line
-    -Change each line with unidecode
-    -Write the new line into a new csv file
-    -Characters should now all be ascii
+    * Import unidecode
+    * Asks for the path to the file
+    * Create new file name for the output with _cleaned.csv at the end
+    * Opens the file and reads each line
+    * Change each line with unidecode
+    * Write the new line into a new csv file
+    * Characters should now all be ascii
